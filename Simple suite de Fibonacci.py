@@ -19,5 +19,5 @@ while resultat < nbr_maximum:
     resultat = nbr + nbr2
     nbr = nbr2
     nbr2 = resultat
-    if resultat < nbr_maximum:
+    if resultat <= nbr_maximum:
         print(resultat)
